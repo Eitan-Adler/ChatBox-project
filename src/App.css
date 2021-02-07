@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.chat-list {
+  height: 60%;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact-card {
+  background-color: #b4ffa1;
+  height: auto;
+  width: auto;
+  border: 1px solid #b6b6b6;
   display: flex;
-  flex-direction: column;
+  cursor: pointer;
+}
+.contact-img {
+  border-radius: 300px;
+  height: 40px;
+  display: inline;
+  margin: 5px;
+}
+.contact-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: block;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.contact-last-message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  margin: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-profile {
+  height: 25%;
+  background: #73c184;
+  display: flex;
+}
+.side-bar {
+  width: 300px;
+  height: 600px;
+}
+.user-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+}
+.user-name {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.user-status {
+  margin: 10px;
+}
+.chat-box-header {
+  background-color: rgb(189, 189, 189);
+  width: 100%;
+  height: 30%;
+}
+.App {
+  display: flex;
+}
+.mute-button {
+  cursor: pointer;
 }
