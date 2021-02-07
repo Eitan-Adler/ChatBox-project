@@ -71,10 +71,6 @@ class App extends Component {
     const { contacts, contactChatId, muted } = this.state;
     return (
       <div className="App">
-        <link
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet"
-        ></link>
         <SideBar
           contacts={contacts}
           ChatBoxNameToChange={(id) => this.setState({ contactChatId: id })}
