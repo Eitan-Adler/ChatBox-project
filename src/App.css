@@ -73,3 +73,6 @@
 .mute-button {
   cursor: pointer;
 }
+.material-icons.mute-button {
+  font-size: 16px;
+}
